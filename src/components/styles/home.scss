@@ -1,2 +1,24 @@
 @import "./variables.scss";
 
+.header {
+    background: $white;
+}
+
+.header__title {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+
+    a {
+      padding-bottom: 3px;
+      cursor: pointer;
+      
+    }
+    :hover {
+        border-bottom: 1px solid;
+        transition: transform 2ms;
+    }
+
+}
