@@ -1,4 +1,3 @@
-import Search from "../Search/Search";
 import "../styles/variables.scss";
 
 const Header = () => {
@@ -12,8 +11,6 @@ const Header = () => {
             <a>Методические указания</a>
             <a>Блог</a>
           </div>
-
-           <Search />
 
         </div>
     </div>
