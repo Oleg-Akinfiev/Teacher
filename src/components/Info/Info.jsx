@@ -4,6 +4,7 @@ import folder from "../Images/folder.png"
 import laptop from "../Images/laptop.png"
 import cursor from "../Images/cursor.png"
 import map from "../Images/map.png"
+import { INFO } from "../utils/constants"
 
 const Info = () => {
   return (
@@ -14,8 +15,12 @@ const Info = () => {
             <div className="info__blocks">
                 <img src={folder} alt="img" />
                 <div className="info__block">
-                    <h3>Методические материалы</h3>
-                    <p>Для подготовки к экзаменам и получения дополнительных знаний</p>
+                    {INFO.map(({id, title, subtitle}) => 
+                        <div key={id}>
+                            <h3>{title}</h3>
+                            <p>{subtitle}</p>
+                        </div>
+                    )}
                 </div>
 
                 <img src={laptop} alt="img" />
