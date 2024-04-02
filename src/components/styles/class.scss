@@ -1,0 +1,24 @@
+.class {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.class__title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.class__img {
+  display: grid;
+  grid-template-columns: 450px 200px 200px;
+  grid-template-rows: 180px 180px;
+  align-items: stretch;
+  justify-content: center;
+  gap: 25px;
+}
+
+.one {
+  grid-row: span 2;
+}

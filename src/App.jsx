@@ -1,4 +1,7 @@
+import React from 'react'
+
 import Call from './components/Call/Call'
+import Class from './components/Class/Class'
 import Home from './components/Home/Home'
 import Info from './components/Info/Info'
 
@@ -10,6 +13,7 @@ const App = () => {
       <Home />
       <Info />
       <Call />
+      <Class />
     </div>
   )
 }
