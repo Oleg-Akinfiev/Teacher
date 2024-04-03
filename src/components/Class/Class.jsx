@@ -8,8 +8,8 @@ import school5 from "../Images/school5.jpg";
 
 const Class = () => {
   return (
-    <div className="container">
-      <div className="class">
+    <div className="class">
+      <div className="container">
         <div className="class__title">Как проходит обучение в классе</div>
         <div className="class__img">
           <img className="one" src={school} alt="" />

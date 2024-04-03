@@ -1,53 +1,51 @@
 @import "./variables.scss";
 
 .menu {
-    display: flex;
-    height: 120px;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 18px;
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
 
-    div {
-      padding-bottom: 3px;
-      cursor: pointer;
-      
-      :hover {
-          border-bottom: 1px solid;
-          transition: transform 2ms;
-      }
+  div {
+    padding-bottom: 3px;
+    cursor: pointer;
+
+    :hover {
+      border-bottom: 1px solid;
+      transition: transform 2ms;
     }
-
+  }
 }
 
 .home {
-    background: $gray;
-    padding-bottom: 50px;
+  background: $gray;
+  padding-bottom: 50px;
 }
 
 .home__title {
-    display: flex;
-    background: $white;
-    padding: 50px 20px 50px 20px;
-    max-width: 900px;
-    margin: 0 auto;
+  display: flex;
+  background: $white;
+  padding: 20px 20px 20px 20px;
+  margin: 0 auto;
 }
 
 .home__img {
-    margin-right: 30px;
-    height: 100%;
+  width: 100%;
+  margin-right: 13rem;
 }
 
 .home__subtitle {
-    h1 {
-        text-align: center;
-        font-size: 30px;
-        font-weight: 700;
-        padding-bottom: 20px;
-    }
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+  }
 
-    p {
-        color: rgba($black, 0.7);
-        font-size: 16px;
-        line-height: 1.5;
-    }
+  p {
+    color: rgba($black, 0.7);
+    font-size: 16px;
+    line-height: 1.5;
+  }
 }

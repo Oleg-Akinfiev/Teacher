@@ -1,0 +1,42 @@
+.footer {
+  background-color: $gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer__col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  color: $gray_text;
+
+  p {
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+}
+
+.footer__info {
+  display: flex;
+  color: $gray_text;
+
+  ul {
+    padding-right: 150px;
+
+    &:last-child {
+      padding-right: 0px;
+    }
+  }
+
+  li {
+    padding-bottom: 5px;
+
+    &:hover {
+      color: $black;
+      transition: 0.2s ease-in-out;
+    }
+  }
+}
