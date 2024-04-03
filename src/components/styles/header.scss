@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.link__text {
+  margin-right: 50px;
+  padding-bottom: 3px;
+  cursor: pointer;
+
+  &:hover {
+    border-bottom: 1px solid;
+    transition: transform 2ms;
+  }
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}

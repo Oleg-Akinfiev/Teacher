@@ -1,21 +1,14 @@
-import { MENU } from "../utils/constants";
-
 import "../styles/index.scss";
 
 import teacher from "../Images/teacher.jpg";
+import Header from "../Header/Header";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="container">
-        <div className="menu">
-          {MENU.map(({ link, name }) => (
-            <div key={link}>
-              <div to={`/${link}`}>{name}</div>
-            </div>
-          ))}
-        </div>
-
+        <div className="menu"></div>
+        <Header />
         <div className="home__title">
           <img src={teacher} alt="teacher" className="home__img" />
           <div className="home__subtitle">
