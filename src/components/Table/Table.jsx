@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Table = () => {
   return (
-    <div>Table</div>
-  )
-}
+    <div>
+      <div className="container">Расписание</div>
+    </div>
+  );
+};
 
-export default Table
+export default Table;

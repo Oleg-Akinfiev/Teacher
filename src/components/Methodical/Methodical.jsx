@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Class from "../Class/Class";
 
 const Methodical = () => {
   return (
-    <div>Methodical</div>
-  )
-}
+    <div>
+      <div className="container">Методические указания</div>
+    </div>
+  );
+};
 
-export default Methodical
+export default Methodical;

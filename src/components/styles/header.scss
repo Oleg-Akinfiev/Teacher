@@ -1,4 +1,8 @@
 .header {
+  background: $gray;
+}
+
+.header__components {
   display: flex;
   height: 120px;
   align-items: center;
@@ -6,14 +10,11 @@
 }
 
 .header__item {
-  display: flex;
-  align-items: center;
   font-size: 18px;
 }
 
 .link__text {
   margin-right: 50px;
-  cursor: pointer;
 
   &:hover {
     border-bottom: 1px solid;

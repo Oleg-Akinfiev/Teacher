@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../styles/index.scss";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
                 <a href="#">Родителям</a>
               </li>
               <li>
-                <a href="#">Обо мне</a>
+                <Link to="/Teacher">Обо мне</Link>
               </li>
             </ul>
             <ul>
@@ -25,19 +26,17 @@ const Footer = () => {
                 <a href="#">Детям</a>
               </li>
               <li>
-                <a href="#">Расписание</a>
+                <Link to="/Table">Расписание</Link>
               </li>
               <li>
-                <a href="#">Методические материалы</a>
+                <Link to="/Methodical">Методические указания</Link>
               </li>
             </ul>
             <ul>
               <li>
                 <a href="#">Интересное</a>
               </li>
-              <li>
-                <a href="#">Блог</a>
-              </li>
+              <Link to="/Blog">Блог</Link>
             </ul>
           </div>
         </div>

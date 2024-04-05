@@ -1,24 +1,39 @@
 import React from "react";
-
-import { MENU } from "../utils/constants";
-import Search from "../Search/Search";
+import { Link } from "react-router-dom";
 
 import "../styles/index.scss";
 
+import Search from "../Search/Search";
+import Navigation from "../Navigation/Navigation";
+
 const Header = () => {
   return (
-    <div className="header">
-      <div className="header__item">
-        {MENU.map(({ link, name }) => (
-          <div className="link__text" key={link}>
-            <div to={`/${link}`}>{name}</div>
+    <>
+      <div className="header">
+        <div className="container">
+          <div className="header__components">
+            <div className="header__item">
+              <Link className="link__text" to="/Teacher">
+                Главная
+              </Link>
+              <Link className="link__text" to="/Table">
+                Расписание
+              </Link>
+              <Link className="link__text" to="/Methodical">
+                Методические указания
+              </Link>
+              <Link className="link__text" to="/Blog">
+                Блог
+              </Link>
+            </div>
+            <div className="header__search">
+              <Search />
+            </div>
           </div>
-        ))}
+        </div>
       </div>
-      <div className="header__search">
-        <Search />
-      </div>
-    </div>
+      <Navigation />
+    </>
   );
 };
 
