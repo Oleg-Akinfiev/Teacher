@@ -1,4 +1,4 @@
-import "../styles/info.scss";
+import React from "react";
 
 import folder from "../Images/folder.png";
 import laptop from "../Images/laptop.png";

@@ -1,4 +1,4 @@
-import "../styles/index.scss";
+import React from "react";
 
 import school from "../Images/school.jpg";
 import school2 from "../Images/school2.jpg";

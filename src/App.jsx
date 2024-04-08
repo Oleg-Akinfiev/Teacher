@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./components/styles/index.scss";
+//import "./components/styles/index.scss";
 
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";

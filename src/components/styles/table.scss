@@ -1,0 +1,35 @@
+.table__title {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #616161;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  margin-bottom: 50px;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.tr__color:nth-child(odd) {
+  background-color: #d8e2e9;
+}

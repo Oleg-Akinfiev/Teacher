@@ -1,6 +1,7 @@
 import "../styles/index.scss";
 
 import teacher from "../Images/teacher.jpg";
+
 import Info from "../Info/Info";
 import Call from "../Call/Call";
 import Class from "../Class/Class";
