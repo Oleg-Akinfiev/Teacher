@@ -12,11 +12,9 @@
 
 .class__img {
   display: grid;
-  grid-template-columns: 450px 200px 200px;
-  grid-template-rows: 180px 180px;
+  grid-template-columns: 48% 25% 25%;
   align-items: stretch;
-  justify-content: center;
-  gap: 25px;
+  gap: 11px;
 }
 
 .one {
