@@ -13,17 +13,13 @@ const Footer = () => {
           </div>
           <div className="footer__info">
             <ul>
-              <li>
-                <a href="#">Родителям</a>
-              </li>
+              <p>Родителям</p>
               <li>
                 <Link to="/Teacher">Обо мне</Link>
               </li>
             </ul>
             <ul>
-              <li>
-                <a href="#">Детям</a>
-              </li>
+              <p>Детям</p>
               <li>
                 <Link to="/Table">Расписание</Link>
               </li>
@@ -32,10 +28,10 @@ const Footer = () => {
               </li>
             </ul>
             <ul>
+              <p>Интересное</p>
               <li>
-                <a href="#">Интересное</a>
+                <Link to="/Blog">Блог</Link>
               </li>
-              <Link to="/Blog">Блог</Link>
             </ul>
           </div>
         </div>

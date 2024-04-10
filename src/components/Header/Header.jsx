@@ -20,7 +20,7 @@ const Header = () => {
                 Расписание
               </Link>
               <Link className="link__text" to="/Methodical">
-                Методические указания
+                Методические материалы
               </Link>
               <Link className="link__text" to="/Blog">
                 Блог

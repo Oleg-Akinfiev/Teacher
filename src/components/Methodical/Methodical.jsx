@@ -1,32 +1,35 @@
 import React from "react";
 
-import meth1 from "../Images/meth1.jpg";
-import meth2 from "../Images/meth2.jpg";
-import meth3 from "../Images/meth3.jpg";
-
 const Methodical = () => {
   return (
     <div className="methodical">
       <div className="container">
-        <div className="methodical__intro">
-          <a href="#">
-            <div className="methodical__img">
-              <img src={meth1} alt="" />
-            </div>
-            <div className="methodical__title">Развитие ребенка</div>
-          </a>
-          <a href="#">
-            <div className="methodical__img">
-              <img src={meth2} alt="" />
-            </div>
-            <div className="methodical__title">Воспитание ребенка</div>
-          </a>
-          <a href="#">
-            <div className="methodical__img">
-              <img src={meth3} alt="" />
-            </div>
-            <div className="methodical__title">Школьные вопросы</div>
-          </a>
+        <div className="methodical__title">
+          <h2>Методические материалы</h2>
+        </div>
+        <div className="methodical__text">
+          <p>
+            Методический портфель воспитателя (классного руководителя) создан с
+            целью систематизации сведений о педагогической деятельности
+            работника.
+          </p>
+          <p>
+            Материалы портфеля могут быть использованы, чтобы документально
+            подтвердить методическую работу педагога, проведённые мероприятия,
+            показать динамику развития профессионализма, дать возможность
+            воспитателю (классному руководителю) самостоятельно оценить свою
+            деятельность.{" "}
+          </p>
+          <p>
+            Методический портфель облегчает процесс внешнего оценивания и служит
+            важным инструментом для аттестации качества труда педагога.{" "}
+          </p>
+          <p>
+            Если учащиеся несколько раз выполнят одну и ту же работу, в журнал
+            будут внесены все их результаты. Лишние записи можно удалять
+            (восстановление невозможно). Результаты можно экспортировать в
+            электронные таблицы Эксель.
+          </p>
         </div>
       </div>
     </div>

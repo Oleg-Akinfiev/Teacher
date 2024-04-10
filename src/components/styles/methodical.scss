@@ -1,26 +1,20 @@
 .methodical {
-  padding: 50px 0 50px 0;
-}
+  padding: 50px 0px;
 
-.methodical__intro {
-  display: flex;
-  justify-content: space-evenly;
-
-  a:hover {
-    box-shadow: 10px 10px 5px rgb(185, 185, 185);
-    transition: 0.2s ease-in-out;
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
   }
 }
 
-.methodical__img {
-  padding-bottom: 15px;
+.methodical__text {
+  max-width: 1000px;
+  margin: 0 auto;
 
-  img {
-    width: 325px;
-    height: 200px;
+  p {
+    font-size: 16px;
+    padding-bottom: 25px;
   }
-}
-
-.methodical__title {
-  font-weight: 600;
 }

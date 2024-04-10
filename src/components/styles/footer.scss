@@ -25,17 +25,18 @@
 
   ul {
     padding-right: 150px;
-
+    p {
+      padding-bottom: 15px;
+    }
     &:last-child {
       padding-right: 0px;
     }
   }
-
   li {
-    padding-bottom: 5px;
-
+    padding-bottom: 15px;
     &:hover {
       color: $black;
+      text-decoration: underline;
       transition: 0.2s ease-in-out;
     }
   }
