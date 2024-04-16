@@ -27,3 +27,15 @@
     margin-right: 0px;
   }
 }
+
+@media (max-width: 950px) {
+  .header__components {
+    justify-content: space-around;
+  }
+  .header__item {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 800px) {
+}

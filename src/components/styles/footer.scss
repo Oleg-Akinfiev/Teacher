@@ -41,3 +41,24 @@
     }
   }
 }
+
+@media (max-width: 950px) {
+  .footer__col {
+    justify-content: space-around;
+  }
+  .footer__info {
+    ul {
+      padding-right: 50px;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .footer__col {
+    display: grid;
+    justify-items: center;
+  }
+  .footer__logo {
+    padding-bottom: 30px;
+  }
+}

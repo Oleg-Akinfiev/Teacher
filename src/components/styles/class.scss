@@ -1,6 +1,6 @@
 .class {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .class__title {
@@ -19,4 +19,33 @@
 
 .one {
   grid-row: span 2;
+}
+
+@media (max-width: 950px) {
+  .class__img {
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 750px;
+  }
+  .one {
+    grid-column: span 2;
+    max-width: 750px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .class__img {
+    grid-template-columns: 100%;
+    justify-items: center;
+  }
+  .one {
+    grid-column: inherit;
+  }
+  .class__img {
+    img {
+      width: 500px;
+    }
+  }
 }
