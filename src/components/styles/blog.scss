@@ -24,3 +24,29 @@
 .blog__title {
   font-weight: 600;
 }
+
+@media (max-width: 950px) {
+  .blog__intro {
+    display: block;
+    text-align: center;
+  }
+  .blog__img {
+    img {
+      max-width: 100%;
+      width: 450px;
+      height: auto;
+    }
+  }
+  .blog__title {
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .blog__img {
+    img {
+      max-width: 100%;
+      width: 350px;
+      height: auto;
+    }
+  }
+}

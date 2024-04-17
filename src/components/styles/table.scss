@@ -33,3 +33,33 @@ table td {
 .tr__color:nth-child(odd) {
   background-color: #d8e2e9;
 }
+
+@media (max-width: 950px) {
+  .table__title {
+    font-size: 30px;
+    padding-top: 70px;
+  }
+  table {
+    font-size: 12px;
+  }
+  table th,
+  table td {
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+}
+
+@media (max-width: 800px) {
+  .table__title {
+    font-size: 20px;
+    padding-top: 50px;
+  }
+  table {
+    font-size: 10px;
+  }
+  table th,
+  table td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}

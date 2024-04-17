@@ -1,4 +1,4 @@
-input {
+.search {
   border: 2px solid;
   border-color: $search;
   border-radius: 5px;
@@ -7,7 +7,7 @@ input {
 }
 
 @media (max-width: 950px) {
-  input {
+  .search {
     font-size: 12px;
     padding: 5px;
   }
