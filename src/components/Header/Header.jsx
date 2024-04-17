@@ -5,6 +5,7 @@ import "../styles/index.scss";
 
 import Search from "../Search/Search";
 import Navigation from "../Navigation/Navigation";
+import BurgerMenu from "../Burger/BurgerMenu";
 
 const Header = () => {
   return (
@@ -25,6 +26,9 @@ const Header = () => {
               <Link className="link__text" to="/Blog">
                 Блог
               </Link>
+            </div>
+            <div className="burger">
+              <BurgerMenu />
             </div>
             <div className="header__search">
               <Search />

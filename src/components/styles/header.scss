@@ -28,6 +28,10 @@
   }
 }
 
+.burger {
+  display: none;
+}
+
 @media (max-width: 950px) {
   .header__components {
     justify-content: space-around;
@@ -38,7 +42,13 @@
 }
 
 @media (max-width: 800px) {
+  .header__components {
+    justify-content: space-between;
+  }
   .header__item {
-    opacity: 0;
+    display: none;
+  }
+  .burger {
+    display: block;
   }
 }
