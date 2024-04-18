@@ -1,6 +1,6 @@
 .class {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .class__title {
@@ -36,6 +36,10 @@
 }
 
 @media (max-width: 800px) {
+  .class {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
   .class__img {
     grid-template-columns: 100%;
     justify-items: center;
@@ -46,6 +50,21 @@
   .class__img {
     img {
       width: 500px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .class {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .class__title {
+    font-size: 20px;
+  }
+  .class__img {
+    img {
+      width: 100%;
     }
   }
 }

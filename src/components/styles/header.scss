@@ -52,3 +52,12 @@
     display: block;
   }
 }
+@media (max-width: 600px) {
+  .header__components {
+    height: 50px;
+  }
+  .header {
+    position: fixed;
+    width: 100%;
+  }
+}

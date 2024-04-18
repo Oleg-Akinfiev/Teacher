@@ -27,8 +27,11 @@
 
 @media (max-width: 950px) {
   .blog__intro {
-    display: block;
+    display: grid;
     text-align: center;
+    a {
+      margin-bottom: 20px;
+    }
   }
   .blog__img {
     img {
@@ -41,6 +44,7 @@
     padding-bottom: 20px;
   }
 }
+
 @media (max-width: 800px) {
   .blog__img {
     img {
@@ -48,5 +52,11 @@
       width: 350px;
       height: auto;
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .blog__intro {
+    padding-top: 30px;
   }
 }

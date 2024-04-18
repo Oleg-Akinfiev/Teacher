@@ -123,3 +123,11 @@
 .modal--exited .modal-content {
   transform: translateY(-350px);
 }
+
+@media (max-width: 600px) {
+  .btn__component {
+    padding: 10px;
+    width: 300px;
+    font-size: 15px;
+  }
+}

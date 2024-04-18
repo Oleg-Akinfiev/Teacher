@@ -1,7 +1,7 @@
 .footer {
   background-color: $gray;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .footer__col {
@@ -60,5 +60,24 @@
   }
   .footer__logo {
     padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .footer__col {
+    text-align: center;
+  }
+  .footer__logo {
+    padding-bottom: 0px;
+    p {
+      font-size: 30px;
+    }
+  }
+  .footer__info {
+    display: none;
   }
 }

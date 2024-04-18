@@ -66,3 +66,17 @@
     width: 100%;
   }
 }
+
+@media (max-width: 600px) {
+  .home__title {
+    width: 100%;
+  }
+  .home__subtitle {
+    h1 {
+      font-size: 15px;
+    }
+    p {
+      font-size: 10px;
+    }
+  }
+}
